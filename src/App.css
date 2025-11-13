@@ -235,3 +235,24 @@ body {
     display: none; /* O implementar menú hamburguesa */
   }
 }
+
+/* Estilos para navegación con router */
+.nav-active {
+  color: #2563eb !important;
+  font-weight: 600;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #2563eb;
+}
+
+main {
+  min-height: calc(100vh - 140px);
+}
